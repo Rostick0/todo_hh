@@ -1,0 +1,29 @@
+.filter {
+    margin-bottom: 1.25rem;
+
+    &__title {
+        font-weight: 600;
+
+        margin-bottom: 0.5rem;
+    }
+
+    &__list {
+        display: flex;
+        column-gap: 0.5rem;
+    }
+
+    &__item {
+        &_label {
+            border: 1px solid transparent;
+            border-radius: 0.25rem;
+
+            padding: 0.25rem;
+
+            transition: 200ms;
+        }
+
+        &_input:checked + &_label {
+            border: 1px solid black;
+        }
+    }
+}

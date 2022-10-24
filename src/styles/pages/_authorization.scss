@@ -1,0 +1,37 @@
+.authorization {
+    margin-top: 8vw;
+
+    &__form {
+        margin: 0 auto;
+
+        width: 100%;
+        max-width: 30rem;
+        
+        &_inner {
+            display: flex;
+            flex-direction: column;
+            row-gap: 1.87rem;
+        }
+
+        &__inputs {
+            display: flex;
+            flex-direction: column;
+            row-gap: 1rem;
+        }
+
+        &_block-input {
+            display: flex;
+            flex-direction: column;
+            row-gap: 0.5rem;
+        }
+
+        &_buttons {
+            display: flex;
+            column-gap: 1.25rem;
+
+            & > * {
+                flex: 1 0 40%;
+            }
+        }
+    }
+}

@@ -1,0 +1,19 @@
+.header {
+    &__container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        padding: 2rem 0;
+    }
+
+    &__navigation {
+        display: flex;
+        align-items: center;
+        column-gap: 0.75rem;
+    }
+
+    &__link {
+        color: black;
+    }
+}

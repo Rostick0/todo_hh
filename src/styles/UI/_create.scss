@@ -1,0 +1,17 @@
+.create {
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+
+    margin-bottom: 1.75rem;
+
+    &__title {
+        font-weight: 600;
+    }
+
+    .create__inputs {
+        display: flex;
+        flex-direction: column;
+        row-gap: 0.25rem;
+    }
+}
